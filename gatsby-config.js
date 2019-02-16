@@ -11,7 +11,8 @@ module.exports = {
       options: {
         policy: [{ userAgent: '*', allow: ['/$'], disallow: ['/'] }],
       },
-    }`gatsby-plugin-react-helmet`,
+    },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
