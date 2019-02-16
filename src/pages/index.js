@@ -2,13 +2,13 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
-import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
-    <div style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="mt-3">
+      <div className="mx-auto" style={{ maxWidth: `600px` }}>
+        <Image />
+      </div>
     </div>
   </Layout>
 )
