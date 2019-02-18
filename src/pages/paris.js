@@ -32,6 +32,15 @@ const ParisPage = () => (
         />
       </div>
     </div>
+
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdp_boq7LWktFJiG4E1yjVbDK5u_9pA0QcsvmcEGYbIf7bu5Q/viewform?usp=sf_link"
+      className="btn btn-block btn-info"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      RSVP
+    </a>
   </Layout>
 )
 
