@@ -25,6 +25,7 @@ const ParisPage = () => (
 
       <div className="col-lg mb-3">
         <iframe
+          title="parisMap"
           src="https://www.google.com/maps/d/embed?mid=1q5fwiViHLpTl1IKzz7JTqC7Ag8uWLno7"
           frameBorder="0"
           className="mb-3 w-100"
@@ -35,6 +36,7 @@ const ParisPage = () => (
 
     <ModalRSVP buttonLabel="RSVP Jeangelique Paris">
       <iframe
+        title="parisRSVP"
         src="https://docs.google.com/forms/d/e/1FAIpQLSdp_boq7LWktFJiG4E1yjVbDK5u_9pA0QcsvmcEGYbIf7bu5Q/viewform?embedded=true"
         frameBorder="0"
         className="w-100 h-modal-body"
