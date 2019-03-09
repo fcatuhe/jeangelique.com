@@ -21,6 +21,20 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        whitelist: [
+          'fade',
+          'modal',
+          'modal-backdrop',
+          'modal-body',
+          'modal-content',
+          'modal-dialog',
+          'show',
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
