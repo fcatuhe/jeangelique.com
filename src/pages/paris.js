@@ -9,7 +9,7 @@ const ParisPage = () => (
     <div className="text-center">
       <h1>
         31 mai 2019
-        <br />à Paris
+        <br />à pAris
       </h1>
       <p>15h Mairie du 11ème</p>
       <p>Champagne</p>
@@ -44,6 +44,32 @@ const ParisPage = () => (
         Loading...
       </iframe>
     </ModalRSVP>
+
+    <h3>Photos</h3>
+
+    <div className="row">
+      <div className="col-lg mb-3">
+        <a
+          href="https://photos.app.goo.gl/gPYHUpzbDhSPBsdn7"
+          className="btn btn-primary btn-block"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Photos Gallery
+        </a>
+      </div>
+
+      <div className="col-lg mb-3">
+        <a
+          href="https://wetransfer.com/?to=watuhe@gmail.com"
+          className="btn btn-info btn-block"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Send us your pictures!
+        </a>
+      </div>
+    </div>
   </Layout>
 )
 
