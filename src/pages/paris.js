@@ -55,13 +55,13 @@ const ParisPage = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Photos Gallery
+          Photo Gallery
         </a>
       </div>
 
       <div className="col-lg mb-3">
         <a
-          href="https://wetransfer.com/?to=watuhe@gmail.com"
+          href="https://wetransfer.com/?to=watuhe+pictures@gmail.com"
           className="btn btn-info btn-block"
           target="_blank"
           rel="noopener noreferrer"
