@@ -3,10 +3,12 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import classNames from 'classnames'
 
+import SEO from './seo'
+
 import '../styles/index.scss'
 import '@fortawesome/fontawesome-free/css/all.css'
 
-const Layout = ({ children, skipContainer }) => (
+const Layout = ({ children, className, skipContainer }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -19,7 +21,8 @@ const Layout = ({ children, skipContainer }) => (
     `}
     render={data => (
       <>
-        <main className={classNames({ container: !skipContainer })}>
+        <SEO />
+        <main className={classNames(className, { container: !skipContainer })}>
           {children}
         </main>
       </>
