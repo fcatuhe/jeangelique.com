@@ -1,18 +1,19 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
+
+import jeangeliqueSaveTheDate from '../images/jeangelique-save-the-date.gif'
 
 const IndexPage = () => (
-  <Layout>
-    <div className="mt-3">
-      <div className="mx-auto" style={{ maxWidth: `600px` }}>
-        <Link to="paris">
-          <Image />
-        </Link>
-      </div>
-    </div>
+  <Layout skipContainer>
+    <div
+      className="viewport"
+      style={{
+        backgroundImage: `url(${jeangeliqueSaveTheDate})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'contain',
+      }}
+    />
   </Layout>
 )
 

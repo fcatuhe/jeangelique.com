@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import classNames from 'classnames'
 
 import '../styles/index.scss'
 import '@fortawesome/fontawesome-free/css/all.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, skipContainer }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -18,7 +19,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <main className="container">{children}</main>
+        <main className={classNames({ container: !skipContainer })}>
+          {children}
+        </main>
       </>
     )}
   />
