@@ -5,69 +5,42 @@ import ModalRSVP from '../components/modalRSVP'
 import Image from '../components/image'
 
 const ParisPage = () => (
-  <Layout>
-    <div className="text-center">
-      <h1>
-        31 mai 2019
-        <br />à pAris
-      </h1>
-      <p>15h Mairie du 11ème</p>
-      <p>Champagne</p>
-      <p>19h Dîner dans le 20ème</p>
-    </div>
-
-    <div className="row">
-      <div className="col-lg mb-3">
-        <div className="mx-auto" style={{ maxWidth: `600px` }}>
-          <Image />
-        </div>
-      </div>
-
-      <div className="col-lg mb-3">
-        <iframe
-          title="parisMap"
-          src="https://www.google.com/maps/d/embed?mid=1q5fwiViHLpTl1IKzz7JTqC7Ag8uWLno7"
-          frameBorder="0"
-          className="mb-3 w-100"
-          height="405"
-        />
+  <Layout skipContainer>
+    <div className="py-5 bg-primary text-white">
+      <div className="container text-center">
+        <h1>Nous nous marions!</h1>
       </div>
     </div>
 
-    <ModalRSVP buttonLabel="RSVP Jeangelique Paris">
-      <iframe
-        title="parisRSVP"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdp_boq7LWktFJiG4E1yjVbDK5u_9pA0QcsvmcEGYbIf7bu5Q/viewform?embedded=true"
-        frameBorder="0"
-        className="w-100 h-modal-body"
-      >
-        Loading...
-      </iframe>
-    </ModalRSVP>
+    <div className="py-5">
+      <div className="container text-center">
+        <h2>Vendredi 31 mai 2019</h2>
 
-    <h3>Photos</h3>
+        <h3 className="mt-5">
+          15h00
+          <br />
+          Mairie du XI<sup>ème</sup>
+        </h3>
+        <p>
+          12 Place Léon Blum
+          <br />
+          Station Voltaire (Métro 9)
+        </p>
 
-    <div className="row">
-      <div className="col-lg mb-3">
-        <a
-          href="https://photos.app.goo.gl/gPYHUpzbDhSPBsdn7"
-          className="btn btn-primary btn-block"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Photo Gallery
-        </a>
-      </div>
+        <h3 className="mt-5">champagne !</h3>
 
-      <div className="col-lg mb-3">
-        <a
-          href="https://wetransfer.com/?to=watuhe+pictures@gmail.com"
-          className="btn btn-info btn-block"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Send us your pictures!
-        </a>
+        <h3 className="mt-5">
+          19h30
+          <br />
+          Dîner dans le XX<sup>ème</sup>
+        </h3>
+        <p>
+          Station Belleville (Métro 2, 11)
+          <br />
+          ou Station Couronnes (Métro 2)
+        </p>
+
+        <h3 className="mt-5">Un dernier verre</h3>
       </div>
     </div>
   </Layout>
