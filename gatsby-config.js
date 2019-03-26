@@ -43,10 +43,10 @@ module.exports = {
         name: `jeangelique`,
         short_name: `jeangelique`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ff6f61`,
+        theme_color: `#ff6f61`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/jeangelique-save-the-date.gif`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
