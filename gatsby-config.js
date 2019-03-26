@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `jeangelique`,
+    title: `#JEANGELIQUE`,
     description: `jeangelique`,
-    author: `jeangelique`,
+    author: `@jeangelique`,
     siteUrl: 'https://jeangelique.com',
   },
   plugins: [
