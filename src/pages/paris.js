@@ -1,14 +1,12 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import ModalRSVP from '../components/modalRSVP'
-import Image from '../components/image'
 
 const ParisPage = () => (
   <Layout skipContainer>
-    <div className="py-5 bg-primary text-white">
+    <div className="py-10vh bg-secondary text-white">
       <div className="container text-center">
-        <h1>Nous nous marions!</h1>
+        <h1>Nous nous marions !</h1>
       </div>
     </div>
 
