@@ -24,6 +24,13 @@ const ParisPage = () => (
           <br />
           Station Voltaire (Métro 9)
         </p>
+        <a
+          href="https://goo.gl/maps/pjeDj6kw5F72"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-map-marked-alt fa-lg" />
+        </a>
 
         <h3 className="mt-5">champagne !</h3>
 
