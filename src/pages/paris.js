@@ -25,7 +25,7 @@ const ParisPage = () => (
           Station Voltaire (Métro 9)
         </p>
         <a
-          href="https://goo.gl/maps/pjeDj6kw5F72"
+          href="https://goo.gl/maps/FvnyAcLAPav"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -46,6 +46,30 @@ const ParisPage = () => (
         </p>
 
         <h3 className="mt-5">Un dernier verre</h3>
+      </div>
+    </div>
+
+    <div className="py-5 bg-primary text-white">
+      <div className="container text-center">
+        <h2>our pAris recommendations</h2>
+      </div>
+    </div>
+
+    <div className="py-5">
+      <div className="container">
+        <iframe
+          title="parisMap"
+          src="https://www.google.com/maps/d/embed?mid=1q5fwiViHLpTl1IKzz7JTqC7Ag8uWLno7"
+          frameBorder="0"
+          className="mb-3 w-100 h-90vh"
+        />
+      </div>
+    </div>
+
+    <div className="py-5 bg-primary text-white">
+      <div className="container text-center">
+        <h3>Des questions ?</h3>
+        <h3>Ecrivez-nous : oui @ jeangelique.com</h3>
       </div>
     </div>
   </Layout>
