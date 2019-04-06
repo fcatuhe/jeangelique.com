@@ -19,7 +19,7 @@ const ParisPage = () => (
           <br />
           Mairie du XI<sup>ème</sup>
         </h3>
-        <p>
+        <p className="mb-1">
           12 Place Léon Blum
           <br />
           Station Voltaire (Métro 9)
@@ -45,17 +45,19 @@ const ParisPage = () => (
           ou Station Couronnes (Métro 2)
         </p>
 
-        <h3 className="mt-5 mb-0">Un dernier verre</h3>
+        <h3 className="mt-5">Un dernier verre</h3>
+
+        <p className="mt-5 mb-0">
+          Our greatest present is your attendance.
+          <br />
+          No gifts please. But we'll take your good mood!
+        </p>
       </div>
     </div>
 
-    <div className="pt-5 pb-4 bg-primary text-white">
+    <div className="pt-5 pb-4 bg-secondary text-white">
       <div className="container text-center">
         <h2 className="mb-4">our pAris recommendations</h2>
-
-        <div className="mb-4">
-          <h3 className="mb-4">Où dormir ?</h3>
-        </div>
 
         <div className="mb-4">
           <h3 className="mb-4">Où manger ?</h3>
@@ -101,7 +103,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/15db90611a9460a7e5175256e3dd981fd23447ae17eba23bc6e087a08f04a928/sette.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -137,7 +146,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/fcd6990e9554bc63bb248437f68b8fe0caf0e64c28151c3dec8d2addbccc0412/petitmarche2.jpg')",
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -175,7 +190,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/a283c8d3895e6439d2754c9edeb5faefc085bad250c62342852c54b6c249b9de/sebastien_gaudard.jpg')",
+                }}
+              >
                 <div className="card-category">Patisserie</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -211,7 +232,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#4720CD' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/d0dd5dac78bc1b419fdb0987a64bf53ba6e58c277b34db19144d1bc1c1a6f170/liberte2.jpg')",
+                }}
+              >
                 <div className="card-category">Boulangerie</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -267,7 +294,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/8cde216672726ee9ddb87726c4ec281045f8eb287c8c4311f34d705f72dc24d5/tenbelles.jpg')",
+                }}
+              >
                 <div className="card-category">Coffee</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -285,7 +318,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/7b38e7f9f6896e88c701beb2a9c1b57c9100ab56577ec87427fb9c8dc5a55c7f/muniyandivilas.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -305,7 +345,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/4e52e19d2fdfdf40b51d19df01587a94d0162cd39a663a39c001133c38c177cd/nanashi.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -341,7 +388,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/8cb0120f7946515e1362a7235944937711971c73a95a8606b265f249035fdddd/saam1.jpg')",
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -433,7 +486,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#E7CA11' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/d13551330650f0b39c0077ff0c34fb3119748e03d22edcd0e7c9c4525d24ae0d/canonniere.jpg')",
+                }}
+              >
                 <div className="card-category">Wine bar</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -494,7 +553,13 @@ const ParisPage = () => (
           <h3 className="mb-4">Que voir ?</h3>
           <div className="row">
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/287c138aa7ab0a4d41a594e3fb05cc06b769e067a1fa13ae5e3763220f86e284/merci1.jpg')",
+                }}
+              >
                 <div className="card-category">Shopping</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -566,7 +631,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#E7CA11' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/dcb5c0a514f140bdbc92b686dee208e366736f5c29284a178452b3a2bab3fe39/rodin1.jpg')",
+                }}
+              >
                 <div className="card-category">Museum</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -701,7 +772,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/366130ed38db8b18ff6cba8fb1559967cf406bb5903270a322f79477df19399d/montmartre1.jpg')",
+                }}
+              >
                 <div className="card-category">Visit</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
