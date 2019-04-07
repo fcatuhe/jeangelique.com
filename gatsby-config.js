@@ -43,8 +43,8 @@ module.exports = {
         name: `jeangelique`,
         short_name: `jeangelique`,
         start_url: `/`,
-        background_color: `#c72011`,
-        theme_color: `#c72011`,
+        background_color: `#ff6f61`,
+        theme_color: `#ff6f61`,
         display: `minimal-ui`,
         icon: `src/images/jeangelique-save-the-date.gif`, // This path is relative to the root of the site.
       },

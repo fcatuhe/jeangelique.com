@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const ParisPage = () => (
   <Layout skipContainer>
-    <div className="py-10vh bg-secondary text-white">
+    <div className="py-10vh bg-primary text-white">
       <div className="container text-center">
         <h1>Nous nous marions !</h1>
       </div>
@@ -55,7 +55,7 @@ const ParisPage = () => (
       </div>
     </div>
 
-    <div className="pt-5 pb-4 bg-secondary text-white">
+    <div className="pt-5 pb-4 bg-primary text-white">
       <div className="container text-center">
         <h2 className="mb-4">our pAris recommendations</h2>
 
@@ -63,7 +63,14 @@ const ParisPage = () => (
           <h3 className="mb-4">Où manger ?</h3>
           <div className="row">
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646497/jeangelique.com/kunitoraya.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -83,7 +90,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/a_0/v1554646496/jeangelique.com/angelina_mont_blanc.jpg')",
+                }}
+              >
                 <div className="card-category">Coffee</div>
                 <div className="card-price">€€€</div>
                 <div className="card-description">
@@ -128,7 +141,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#F97C20' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646498/jeangelique.com/blend.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Restaurant</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -170,7 +190,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#B32A82' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646496/jeangelique.com/rosa_bonheur_sur_seine.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Bar</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -194,7 +221,8 @@ const ParisPage = () => (
                 className="card"
                 style={{
                   backgroundImage:
-                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://freight.cargo.site/t/original/i/a283c8d3895e6439d2754c9edeb5faefc085bad250c62342852c54b6c249b9de/sebastien_gaudard.jpg')",
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646496/jeangelique.com/sebastian_gaudard_moussipountin.jpg')",
+                  backgroundPosition: 'bottom',
                 }}
               >
                 <div className="card-category">Patisserie</div>
@@ -276,7 +304,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#E7CA11' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/a_0/v1554646496/jeangelique.com/cafe_caoua.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Breakfast</div>
                 <div className="card-price">€</div>
                 <div className="card-description">
@@ -370,7 +405,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#B32A82' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646496/jeangelique.com/comptoir_general.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Bar</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -595,7 +637,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646497/jeangelique.com/place_de_la_contrescarpe.jpg')",
+                }}
+              >
                 <div className="card-category">Visit</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
@@ -613,13 +661,19 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646496/jeangelique.com/jardin_luxembourg.jpg')",
+                }}
+              >
                 <div className="card-category">Visit</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
                   <h2>Jardin du Luxembourg</h2>
                   <div>Pure Paris.</div>
-                  <p>, 75006 Paris</p>
+                  <p>Jardin du Luxembourg, 75006 Paris</p>
                 </div>
                 <a
                   className="card-link"
@@ -655,7 +709,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#E7CA11' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/a_0/v1554646497/jeangelique.com/petit_palais.jpg')",
+                }}
+              >
                 <div className="card-category">Museum</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
@@ -716,7 +776,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/a_0/v1554646496/jeangelique.com/canal_st_martin.jpg')",
+                }}
+              >
                 <div className="card-category">Visit</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
@@ -734,7 +800,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/a_0/v1554646496/jeangelique.com/marche_daligre.jpg')",
+                }}
+              >
                 <div className="card-category">Visit</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
@@ -754,7 +826,14 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#E7CA11' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646496/jeangelique.com/fondation_louis_vuitton.jpg')",
+                  backgroundPosition: 'bottom',
+                }}
+              >
                 <div className="card-category">Museum</div>
                 <div className="card-price">€€</div>
                 <div className="card-description">
@@ -796,7 +875,13 @@ const ParisPage = () => (
             </div>
 
             <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card" style={{ backgroundColor: '#78C81B' }}>
+              <div
+                className="card"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/jeangelique/image/upload/v1554646497/jeangelique.com/buttes_chaumant.jpg')",
+                }}
+              >
                 <div className="card-category">Visit</div>
                 <div className="card-price">free</div>
                 <div className="card-description">
