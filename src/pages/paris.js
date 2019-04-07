@@ -677,7 +677,7 @@ const ParisPage = () => (
                 </div>
                 <a
                   className="card-link"
-                  href="https://www.google.com/maps/dir//Jardin+du+Luxembourg,+,+75006+Paris"
+                  href="https://www.google.com/maps/dir//Jardin+du+Luxembourg,+75006+Paris"
                   target="_blank"
                   rel="noopener noreferrer"
                 />
