@@ -1,7 +1,10 @@
 ---
+author: François
 title: Test 3 update
 who: Jeangelique
-author: François
-date: 13 Apr 2019
+date: 05 Jun 2018
+location:
+  city: Stuttgart
+  country: Deutschland
 ---
-Test 3
+
