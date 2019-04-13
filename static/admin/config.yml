@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+site_url: https://jeangelique.com
 display_url: https://jeangelique.com/surprise
 publish_mode: editorial_workflow
 media_folder: static/images
@@ -11,10 +12,11 @@ slug:
 collections:
   - name: moments
     label: Moment
+    summary: '{{author}} · {{title}}'
     folder: src/pages/moments
     slug: '{{year}}-{{month}}-{{slug}}'
-    preview_path: moments/{{slug}}
     create: true
+    preview_path: moments/{{slug}}
     fields:
       - { name: title, label: Title }
       - {
