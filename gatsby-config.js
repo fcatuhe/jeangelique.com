@@ -21,6 +21,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'moments',
+        path: `${__dirname}/src/pages/moments`,
+      },
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-purgecss',
@@ -36,6 +43,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

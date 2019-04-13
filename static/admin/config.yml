@@ -18,7 +18,7 @@ collections:
     delete: false
     folder: src/pages/moments
     # slug: '{{year}}-{{month}}-{{slug}}'
-    preview_path: moments/{{year}}-{{month}}-{{slug}}
+    preview_path: moments/{{slug}}
     fields:
       - label: Author (you)
         name: author
@@ -31,6 +31,7 @@ collections:
       - label: Date
         name: date
         widget: date
+        default: ''
         format: DD MMM YYYY
       - label: Place
         name: location
