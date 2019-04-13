@@ -1,17 +1,16 @@
 backend:
   name: git-gateway
-
-media_folder: static/images
-public_folder: images
-
 display_url: https://jeangelique.com/surprise
+publish_mode: editorial_workflow
+media_folder: static/images
+public_folder: /images
 slug:
   encoding: ascii
   clean_accents: true
 
 collections:
   - name: moments
-    label: Moments
+    label: Moment
     folder: src/pages/moments
     create: true
     fields:
