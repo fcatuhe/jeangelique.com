@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+
+media_folder: static/images
+public_folder: images
+
+display_url: https://jeangelique.com/surprise
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: moments
+    label: Moments
+    folder: src/pages/moments
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - {
+          name: who,
+          label: Who?,
+          widget: select,
+          options: [Angélique, Jens, Jeangelique],
+        }
+      - { name: author, label: Author }
+      - { name: date, label: Date, widget: date, format: DD MMM YYYY }
+      - { name: body, label: Body, widget: markdown }

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `#JEANGELIQUE`,
-    description: `jeangelique`,
-    author: `@jeangelique`,
+    title: '#JEANGELIQUE',
+    description: 'jeangelique',
+    author: '@jeangelique',
     siteUrl: 'https://jeangelique.com',
   },
   plugins: [
@@ -12,17 +12,18 @@ module.exports = {
         policy: [{ userAgent: '*', allow: ['/$'], disallow: ['/'] }],
       },
     },
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-sass`,
+    'gatsby-plugin-sass',
     {
-      resolve: `gatsby-plugin-purgecss`,
+      resolve: 'gatsby-plugin-purgecss',
       options: {
         whitelist: [
           'fade',
@@ -35,18 +36,18 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `jeangelique`,
-        short_name: `jeangelique`,
-        start_url: `/`,
-        background_color: `#ff6f61`,
-        theme_color: `#ff6f61`,
-        display: `minimal-ui`,
-        icon: `src/images/jeangelique-save-the-date.gif`, // This path is relative to the root of the site.
+        name: 'jeangelique',
+        short_name: 'jeangelique',
+        start_url: '/',
+        background_color: '#ff6f61',
+        theme_color: '#ff6f61',
+        display: 'minimal-ui',
+        icon: 'src/images/jeangelique-save-the-date.gif', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
