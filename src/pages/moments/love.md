@@ -3,6 +3,7 @@ title: Love!
 who: Jeangelique
 author: François
 date: 01 Jan 2014
+image: /images/jeangelique-save-the-date.gif
 ---
 In Cadix, they met!
 
