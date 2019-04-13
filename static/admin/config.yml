@@ -10,22 +10,39 @@ slug:
   clean_accents: true
 
 collections:
-  - name: moments
-    label: Moment
+  - label: Moment
+    name: moments
     summary: '{{author}} · {{title}}'
+    create: true
     folder: src/pages/moments
     slug: '{{year}}-{{month}}-{{slug}}'
-    create: true
-    preview_path: moments/{{slug}}
+    preview_path: moments/{{year}}-{{month}}-{{slug}}
     fields:
-      - { name: title, label: Title }
-      - {
-          name: who,
-          label: Who?,
-          widget: select,
-          options: [Angélique, Jens, Jeangelique],
-        }
-      - { name: author, label: Author }
-      - { name: date, label: Date, widget: date, format: DD MMM YYYY }
-      - { name: image, label: Cover image, widget: image, required: false }
-      - { name: body, label: Body, widget: markdown }
+      - label: Author (you)
+        name: author
+      - label: Title
+        name: title
+      - label: With who?
+        name: who
+        widget: select
+        options: [Angélique, Jens, Jeangelique]
+      - label: Date
+        name: date
+        widget: date
+        format: DD MMM YYYY
+      - label: Place
+        name: location
+        widget: object
+        fields:
+          - label: City
+            name: city
+          - label: Country
+            name: country
+      - label: Picture
+        name: image
+        widget: image
+        required: false
+      - label: Story
+        name: body
+        widget: markdown
+        required: false
