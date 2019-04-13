@@ -24,4 +24,5 @@ collections:
         }
       - { name: author, label: Author }
       - { name: date, label: Date, widget: date, format: DD MMM YYYY }
+      - { name: image, label: Cover image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
