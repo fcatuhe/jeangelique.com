@@ -1,10 +1,9 @@
 ---
-title: Love
+title: Love!
 who: Jeangelique
 author: François
 date: 01 Jan 2014
 ---
-
 In Cadix, they met!
 
 ![](/images/jeangelique-save-the-date.gif)
