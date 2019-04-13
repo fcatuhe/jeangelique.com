@@ -12,6 +12,8 @@ collections:
   - name: moments
     label: Moment
     folder: src/pages/moments
+    slug: {{year}}-{{month}}-{{slug}}
+    preview_path: moments/{{slug}}
     create: true
     fields:
       - { name: title, label: Title }
