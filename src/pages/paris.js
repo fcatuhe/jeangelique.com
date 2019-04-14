@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 
 const ParisPage = () => (
-  <Layout skipContainer>
+  <Layout skipContainer className="font-family-cinzel">
     <div className="py-10vh bg-primary text-white">
       <div className="container text-center">
         <h1>Nous nous marions !</h1>
