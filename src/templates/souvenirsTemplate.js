@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const MomentTemplate = ({ data, location }) => {
+const SouvenirsTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark
 
   return (
@@ -21,9 +21,9 @@ const MomentTemplate = ({ data, location }) => {
   )
 }
 
-export default MomentTemplate
+export default SouvenirsTemplate
 
-export const momentQuery = graphql`
+export const souvenirsQuery = graphql`
   query($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {

@@ -10,15 +10,15 @@ slug:
   clean_accents: true
 
 collections:
-  - label: Moments
-    label_singular: Moment
-    name: moments
+  - label: Souvenirs
+    label_singular: Souvenir
+    name: souvenirs
     summary: '{{author}} · {{title}}'
     create: true
     delete: false
-    folder: src/pages/moments
+    folder: src/pages/souvenirs
     # slug: '{{year}}-{{month}}-{{slug}}'
-    preview_path: moments/{{slug}}
+    preview_path: souvenirs/{{slug}}
     fields:
       - label: Author (you)
         name: author
