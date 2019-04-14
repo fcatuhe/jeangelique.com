@@ -1,21 +1,28 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import Timeline from 'react-image-timeline'
+import 'react-image-timeline/dist/timeline.css'
+
 import Layout from '../components/layout'
 
-const SouvenirsTemplate = ({ data, location }) => {
+const SouvenirsTemplate = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
+
+  const event = {
+    title: frontmatter.title,
+    date: new Date(frontmatter.date),
+    imageUrl: frontmatter.image,
+    text: `${frontmatter.location.city}, ${frontmatter.location.country} · by ${
+      frontmatter.author
+    }`,
+  }
 
   return (
     <Layout>
-      <h1>{frontmatter.title}</h1>
+      <Timeline events={[event]} />
+
       <p>{frontmatter.who}</p>
-      <p>
-        {frontmatter.date} in {frontmatter.location.city},{' '}
-        {frontmatter.location.country}
-      </p>
-      <p>by {frontmatter.author}</p>
-      <img src={frontmatter.image} />
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   )
