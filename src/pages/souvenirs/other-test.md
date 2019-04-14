@@ -7,4 +7,4 @@ location:
   city: Bordeaux
   country: France
 ---
-Better story
+Better story, improved
