@@ -1,6 +1,6 @@
 ---
 author: François
-title: Example of moment
+title: Example of souvenir
 who: Jeangelique
 date: 01 Jan 2014
 location:
