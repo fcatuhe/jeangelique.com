@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'moments',
-        path: `${__dirname}/src/pages/moments`,
+        name: 'souvenirs',
+        path: `${__dirname}/src/pages/souvenirs`,
       },
     },
     'gatsby-plugin-sass',
