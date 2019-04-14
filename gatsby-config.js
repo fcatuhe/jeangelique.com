@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: '#JEANGELIQUE',
@@ -12,8 +14,23 @@ module.exports = {
         policy: [{ userAgent: '*', allow: ['/$'], disallow: ['/'] }],
       },
     },
-    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-purgecss',
+      options: {
+        develop: true,
+        content: [
+          path.join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx}'),
+          path.join(process.cwd(), 'node_modules/reactstrap/lib/Modal.js'),
+          path.join(
+            process.cwd(),
+            'node_modules/react-image-timeline/dist/timline.js'
+          ),
+        ],
+      },
+    },
+    'gatsby-plugin-netlify-cms',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -26,21 +43,6 @@ module.exports = {
       options: {
         name: 'souvenirs',
         path: `${__dirname}/src/pages/souvenirs`,
-      },
-    },
-    'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        whitelist: [
-          'fade',
-          'modal',
-          'modal-backdrop',
-          'modal-body',
-          'modal-content',
-          'modal-dialog',
-          'show',
-        ],
       },
     },
     'gatsby-transformer-remark',
