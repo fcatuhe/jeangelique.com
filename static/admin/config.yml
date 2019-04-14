@@ -13,7 +13,7 @@ collections:
   - label: Souvenirs
     label_singular: Souvenir
     name: souvenirs
-    summary: '{{author}} · {{title}}'
+    summary: '{{author}} · {{date}} · {{title}}'
     create: true
     delete: false
     folder: src/pages/souvenirs
