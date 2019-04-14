@@ -22,18 +22,18 @@ collections:
     fields:
       - label: Author (you)
         name: author
-      - label: Title
+      - label: Punchline (title)
         name: title
       - label: With who?
         name: who
         widget: select
         options: [Angélique, Jens, Jeangelique]
-      - label: Date
+      - label: When?
         name: date
         widget: date
         default: ''
         format: DD MMM YYYY
-      - label: Place
+      - label: Where?
         name: location
         widget: object
         fields:
