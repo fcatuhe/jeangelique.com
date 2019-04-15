@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
-        develop: true,
+        // develop: true,
         content: [
           path.join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx}'),
           path.join(process.cwd(), 'node_modules/reactstrap/lib/Modal.js'),
