@@ -2,25 +2,30 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Timeline from 'react-image-timeline'
-import 'react-image-timeline/dist/timeline.css'
 
 import Layout from '../components/layout'
+
+import CustomHeader from '../components/timeline/customHeader'
+import CustomTextBody from '../components/timeline/customTextBody'
+import CustomFooter from '../components/timeline/customFooter'
 
 const SurpriseSurprisePage = ({ data: { allMarkdownRemark } }) => {
   const souvenirs = allMarkdownRemark.edges.map(edge => edge.node)
 
   const events = souvenirs.map(souvenir => ({
-    title: souvenir.frontmatter.title,
     date: new Date(souvenir.frontmatter.date),
     imageUrl: souvenir.frontmatter.image,
-    text: `${souvenir.frontmatter.location.city}, ${
-      souvenir.frontmatter.location.country
-    } · by ${souvenir.frontmatter.author}`,
+    ...souvenir,
   }))
 
   return (
-    <Layout>
-      <Timeline events={events} />
+    <Layout skipContainer>
+      <Timeline
+        events={events}
+        customHeader={CustomHeader}
+        customTextBody={CustomTextBody}
+        customFooter={CustomFooter}
+      />
     </Layout>
   )
 }

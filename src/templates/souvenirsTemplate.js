@@ -6,24 +6,27 @@ import 'react-image-timeline/dist/timeline.css'
 
 import Layout from '../components/layout'
 
-const SouvenirsTemplate = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+import CustomHeader from '../components/timeline/customHeader'
+import CustomTextBody from '../components/timeline/customTextBody'
+import CustomFooter from '../components/timeline/customFooter'
 
-  const event = {
-    title: frontmatter.title,
-    date: new Date(frontmatter.date),
-    imageUrl: frontmatter.image,
-    text: `${frontmatter.location.city}, ${frontmatter.location.country} · by ${
-      frontmatter.author
-    }`,
-  }
+const SouvenirsTemplate = ({ data: { markdownRemark } }) => {
+  const souvenirs = [markdownRemark]
+
+  const events = souvenirs.map(souvenir => ({
+    date: new Date(souvenir.frontmatter.date),
+    imageUrl: souvenir.frontmatter.image,
+    ...souvenir,
+  }))
 
   return (
     <Layout>
-      <Timeline events={[event]} />
-
-      <p>{frontmatter.who}</p>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <Timeline
+        events={events}
+        customHeader={CustomHeader}
+        customTextBody={CustomTextBody}
+        customFooter={CustomFooter}
+      />
     </Layout>
   )
 }
