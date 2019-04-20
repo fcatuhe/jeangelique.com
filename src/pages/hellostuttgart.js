@@ -19,7 +19,7 @@ const HelloStuttgartPage = () => (
     <div className="row">
       <div className="col-lg mb-3">
         <div className="mx-auto" style={{ maxWidth: `600px` }}>
-          <Image />
+          <Image src="jeangelique.jpeg" />
         </div>
       </div>
 

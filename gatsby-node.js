@@ -56,5 +56,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: 'slug',
       value: slug,
     })
+
+    const timestamp = Date.parse(node.frontmatter.date)
+    createNodeField({
+      node,
+      name: 'timestamp',
+      value: timestamp,
+    })
   }
 }
