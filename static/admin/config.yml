@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 site_url: https://jeangelique.com
 display_url: https://jeangelique.com/surprise-surprise
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 media_folder: static/images
 public_folder: /images
 slug:
