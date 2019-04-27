@@ -25,7 +25,12 @@ const SurpriseSurprisePage = ({
                 {souvenir.frontmatter.location.city}
               </h6>
             </div>
-            <img src={souvenir.frontmatter.image} />
+            <img
+              src={
+                souvenir.frontmatter.image &&
+                `${souvenir.frontmatter.image}?nf_resize=fit&w=600`
+              }
+            />
             {souvenir.html && (
               <div
                 className="m-3"
