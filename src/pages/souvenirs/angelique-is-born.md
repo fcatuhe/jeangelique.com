@@ -6,5 +6,12 @@ date: 19 Jul 1992
 location:
   city: Luxemburg
   country: Luxemburg
+image: /images/faire-part-ange-lique.png
 ---
-Valérian, Stella, François, Ruthie & Michel are happy to celebrate the birth of Angélique!
+François, Stella et Valérian ont la joie de vous annoncer la naissance de leur petite sœur\
+**Angélique Marie Thérèse Hélène**\
+le 19 juillet 1992
+
+Michel et Ruthie Catuhe\
+5, rue du Père Raphaël\
+L-2413 Luxembourg
