@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import ModalRSVP from '../components/modalRSVP'
-import jeangelique from '../images/jeangelique.jpeg'
+import jeangelique from '../images/jeangelique.jpg'
 
 const HelloStuttgartPage = () => (
   <Layout>

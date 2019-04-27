@@ -44,7 +44,7 @@ module.exports = {
         background_color: '#ff6f61',
         theme_color: '#ff6f61',
         display: 'minimal-ui',
-        icon: 'src/images/jeangelique-save-the-date.gif', // This path is relative to the root of the site.
+        icon: 'src/manifest/jeangelique-save-the-date.gif', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
