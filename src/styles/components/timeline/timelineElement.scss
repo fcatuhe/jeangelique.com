@@ -1,0 +1,190 @@
+.timeline-element {
+  position: relative;
+  margin: 2rem 0;
+  @include media-breakpoint-up(md) {
+    margin: 4rem 0;
+  }
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+// Icon
+.timeline-element-icon {
+  position: absolute;
+  top: 0.75rem;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 83%;
+  @include media-breakpoint-up(md) {
+    width: 3rem;
+    height: 3rem;
+    left: 50%;
+    margin-left: -1.5rem;
+  }
+}
+// Icon animation
+.timeline--animate .timeline-element-icon.is-hidden {
+  &.is-hidden {
+    visibility: hidden;
+  }
+  &.bounce-in {
+    visibility: visible;
+    animation: cd-bounce-1 0.6s;
+  }
+}
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timeline-element-bubble {
+  position: relative;
+  margin-left: 3.5rem;
+  @include media-breakpoint-up(md) {
+    margin-left: 0;
+    width: 44%;
+    .timeline-element:nth-child(even) & {
+      float: right;
+    }
+  }
+}
+.timeline-element-bubble-content {
+  border-radius: 0.5em;
+  background: $white;
+  border-top: 3px solid $primary;
+  // box-shadow: 0 3px 0 #ddd;
+  overflow: hidden;
+  & .timeline-element-header {
+    margin: 1rem;
+    @include media-breakpoint-up(md) {
+      .timeline-element:nth-child(odd) & {
+        text-align: right;
+      }
+    }
+  }
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.timeline-element--no-children .timeline-element-bubble {
+  background: transparent;
+  box-shadow: none;
+}
+.timeline-element-bubble::before {
+  content: '';
+  position: absolute;
+  top: 1.5rem;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 0.5rem solid transparent;
+  border-right-color: white;
+  @include media-breakpoint-up(md) {
+    top: 1.25rem;
+    left: 100%;
+    border: 1rem solid transparent;
+    border-left-color: white;
+    .timeline-element:nth-child(even) & {
+      left: auto;
+      right: 100%;
+      border-left-color: transparent;
+      border-right-color: white;
+    }
+  }
+}
+
+.timeline-element--no-children .timeline-element-bubble::before {
+  display: none;
+}
+
+@include media-breakpoint-up(md) {
+  .timeline-element-bubble .timeline-element-date {
+    position: absolute;
+    width: 100%;
+    left: 124%;
+    top: 1.5rem;
+    text-align: left;
+    .timeline-element:nth-child(even) & {
+      left: auto;
+      right: 124%;
+      text-align: right;
+    }
+  }
+}
+
+// Content animation
+.timeline--animate .timeline-element-bubble.is-hidden {
+  visibility: hidden;
+}
+.timeline--animate .timeline-element-bubble.bounce-in {
+  visibility: visible;
+  animation: cd-bounce-2 0.6s;
+}
+// Inverse animation on even Content
+@include media-breakpoint-up(md) {
+  .timeline--animate
+    .timeline-element:nth-child(even)
+    .timeline-element-bubble.bounce-in {
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+// @include media-breakpoint-down(sm) {
+//   .timeline--animate .timeline-element-bubble.bounce-in {
+//     visibility: visible;
+//     animation: cd-bounce-2-inverse 0.6s;
+//   }
+// }
+@keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

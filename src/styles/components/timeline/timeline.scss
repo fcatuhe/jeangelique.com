@@ -1,0 +1,24 @@
+.timeline {
+  position: relative;
+  padding: 1rem;
+  padding-left: 0.75rem;
+  background-color: $gray-300;
+  @include media-breakpoint-up(md) {
+    padding: 2rem;
+  }
+}
+
+// Vertical line
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 1.875rem;
+  height: 100%;
+  width: 0.25rem;
+  background: white;
+  @include media-breakpoint-up(md) {
+    left: 50%;
+    margin-left: -0.125rem;
+  }
+}

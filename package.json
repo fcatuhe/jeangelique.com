@@ -1,6 +1,6 @@
 {
   "name": "jeangelique",
-  "license": "private",
+  "private": true,
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -30,7 +30,7 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-helmet": "^5.2.0",
-    "react-image-timeline": "^1.0.11",
+    "react-visibility-sensor": "^5.0.2",
     "reactstrap": "^7.1.0"
   },
   "devDependencies": {
