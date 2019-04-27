@@ -12,52 +12,33 @@ class TimelineElement extends Component {
   }
 
   render() {
-    const {
-      id,
-      children,
-      icon,
-      iconStyle,
-      iconOnClick,
-      date,
-      position,
-      style,
-      className,
-      visibilitySensorProps,
-    } = this.props
-
+    const { children, icon, date } = this.props
     const { visible } = this.state
 
     return (
       <div
-        id={id}
-        className={classNames(className, 'timeline-element', {
-          'timeline-element--left': position === 'left',
-          'timeline-element--right': position === 'right',
+        className={classNames('timeline-element', {
           'timeline-element--no-children': children === '',
         })}
-        style={style}
       >
-        <VisibilitySensor
-          {...visibilitySensorProps}
-          onChange={this.onVisibilitySensorChange}
-        >
+        <VisibilitySensor onChange={this.onVisibilitySensorChange}>
           <>
-            <span // eslint-disable-line jsx-a11y/no-static-element-interactions
-              style={iconStyle}
-              onClick={iconOnClick}
+            <div
               className={`timeline-element-icon ${
                 visible ? 'bounce-in' : 'is-hidden'
               }`}
             >
               {icon}
-            </span>
+            </div>
+
             <div
-              className={`timeline-element-content ${
+              className={`timeline-element-bubble ${
                 visible ? 'bounce-in' : 'is-hidden'
               }`}
             >
-              <div className="timeline-element-content-xxx">
-                <span className="timeline-element-date">{date}</span>
+              <div className="timeline-element-bubble-content">
+                <div className="timeline-element-date">{date}</div>
+
                 {children}
               </div>
             </div>
@@ -69,16 +50,9 @@ class TimelineElement extends Component {
 }
 
 TimelineElement.defaultProps = {
-  id: '',
-  children: '',
-  className: '',
   icon: null,
-  iconStyle: null,
-  style: null,
   date: '',
-  position: '',
-  iconOnClick: null,
-  visibilitySensorProps: { partialVisibility: true, offset: { bottom: 80 } },
+  children: '',
 }
 
 export { TimelineElement }

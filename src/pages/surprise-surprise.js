@@ -12,21 +12,20 @@ const SurpriseSurprisePage = ({
   const souvenirs = edges.map(edge => edge.node)
 
   return (
-    <Layout skipContainer className="bg-info">
+    <Layout skipContainer>
       <Timeline>
         {souvenirs.map(souvenir => (
           <TimelineElement
-            date={souvenir.frontmatter.date}
-            iconStyle={{ background: '#ff6f61', color: '#fff' }}
             key={souvenir.fields.slug}
+            date={souvenir.frontmatter.date}
           >
-            <div className="m-3">
+            <div className="timeline-element-header">
               <h3>{souvenir.frontmatter.title}</h3>
               <h6 className="text-uppercase">
                 {souvenir.frontmatter.location.city}
               </h6>
             </div>
-            <img className="img-fluid" src={souvenir.frontmatter.image} />
+            <img src={souvenir.frontmatter.image} />
             {souvenir.html && (
               <div
                 className="m-3"
