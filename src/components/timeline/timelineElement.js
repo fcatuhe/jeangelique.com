@@ -12,7 +12,7 @@ class TimelineElement extends Component {
   }
 
   render() {
-    const { children, icon, date } = this.props
+    const { children, date, icon, iconClassName } = this.props
     const { visible } = this.state
 
     return (
@@ -24,9 +24,10 @@ class TimelineElement extends Component {
         <VisibilitySensor onChange={this.onVisibilitySensorChange}>
           <>
             <div
-              className={`timeline-element-icon ${
-                visible ? 'bounce-in' : 'is-hidden'
-              }`}
+              className={classNames(
+                `timeline-element-icon ${visible ? 'bounce-in' : 'is-hidden'}`,
+                iconClassName
+              )}
             >
               {icon}
             </div>

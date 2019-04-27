@@ -18,6 +18,12 @@ const SurpriseSurprisePage = ({
           <TimelineElement
             key={souvenir.fields.slug}
             date={souvenir.frontmatter.date}
+            icon={souvenir.frontmatter.who[0]}
+            iconClassName={
+              souvenir.frontmatter.who == 'Angélique'
+                ? 'bg-primary'
+                : 'bg-success'
+            }
           >
             <div className="timeline-element-header">
               <h3>{souvenir.frontmatter.title}</h3>
