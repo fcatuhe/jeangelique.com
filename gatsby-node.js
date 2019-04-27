@@ -4,8 +4,6 @@ const { createFilePath } = require('gatsby-source-filesystem')
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const landingTemplate = path.resolve(`src/templates/landingTemplate.js`)
-
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {
