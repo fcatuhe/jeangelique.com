@@ -2,7 +2,6 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import ModalRSVP from '../components/modalRSVP'
-import jeangelique from '../images/jeangelique.jpg'
 
 const HelloStuttgartPage = () => (
   <Layout>
@@ -19,7 +18,7 @@ const HelloStuttgartPage = () => (
     <div className="row">
       <div className="col-lg mb-3">
         <div className="mx-auto" style={{ maxWidth: `600px` }}>
-          <img src={jeangelique} />
+          <img src="/images/faire-part-jeangelique.jpg" />
         </div>
       </div>
 
