@@ -5,7 +5,7 @@ module.exports = {
     title: '#JEANGELIQUE',
     description: 'jeangelique',
     author: '@jeangelique',
-    siteUrl: 'https://www.jeangelique.com',
+    siteUrl: 'https://jeangelique.com',
   },
   plugins: [
     {
