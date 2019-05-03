@@ -4,11 +4,14 @@ import Layout from '../components/layout'
 
 const ParisPage = () => (
   <Layout skipContainer className="font-family-cinzel">
-    <div className="py-10vh bg-primary text-white">
-      <div className="container text-center">
-        <h1>Nous nous marions !</h1>
-      </div>
-    </div>
+    <div
+      className="h-30vh-max-50vw"
+      style={{
+        backgroundImage: `url(/images/jeangelique_Banner.gif)`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+      }}
+    />
 
     <div className="py-5">
       <div className="container text-center">
