@@ -56,7 +56,7 @@ const ParisPage = () => (
               <br />
               Champagne !
             </h3>
-            <p className="mb-2">La Canonnière</p>
+            <h5>La Canonnière</h5>
             <p className="mb-2">57 Rue de la Fontaine au Roi</p>
             <a
               href="https://goo.gl/maps/yajsDQRmZ5pJ7vFr5"
@@ -69,9 +69,9 @@ const ParisPage = () => (
             <h3 className="mt-5">
               19h30
               <br />
-              Dîner dans le XX<sup>ème</sup>
+              Dîner mariage
             </h3>
-            <p className="mb-2">Dame Jane</p>
+            <h5>Dame Jane</h5>
             <p className="mb-2">39 Rue Ramponeau</p>
             <p className="mb-2">
               Station Belleville (Métro 2, 11)
@@ -87,11 +87,11 @@ const ParisPage = () => (
             </a>
 
             <h3 className="mt-5">
-              Un dernier verre
+              Après minuit
               <br />
-              après minuit
+              Un dernier verre
             </h3>
-            <p className="mb-2">Combat</p>
+            <h5>Combat</h5>
             <p className="mb-2">63 Rue de Belleville</p>
             <a
               href="https://goo.gl/maps/zEZAiVP98jts6Hhq9"
