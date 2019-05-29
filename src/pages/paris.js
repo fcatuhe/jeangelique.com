@@ -15,40 +15,112 @@ const ParisPage = () => (
 
     <div className="py-5">
       <div className="container text-center">
-        <h2>Vendredi 31 mai 2019</h2>
+        <div className="row">
+          <div className="col-md mt-md-5 mb-5 mb-md-0">
+            <h4>Jeudi 30 mai</h4>
 
-        <h3 className="mt-5">
-          15h00
-          <br />
-          Mairie du XI<sup>ème</sup>
-        </h3>
-        <p className="mb-1">
-          12 Place Léon Blum
-          <br />
-          Station Voltaire (Métro 9)
-        </p>
-        <a
-          href="https://goo.gl/maps/FvnyAcLAPav"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-map-marked-alt fa-lg" />
-        </a>
+            <h5 className="mt-4">
+              19h30
+              <br />
+              Chez Imogène
+            </h5>
+            <p className="mb-2">25 Rue Jean-Pierre Timbaud</p>
+            <a
+              href="https://goo.gl/maps/2Uw3UN2pfTEwcrMd9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
+          </div>
+          <div className="col-md mb-5 mb-md-0">
+            <h2>Vendredi 31 mai 2019</h2>
 
-        <h3 className="mt-5">champagne !</h3>
+            <h3 className="mt-5">
+              15h00
+              <br />
+              Mairie du XI<sup>ème</sup>
+            </h3>
+            <p className="mb-2">12 Place Léon Blum</p>
+            <p className="mb-2">Station Voltaire (Métro 9)</p>
+            <a
+              href="https://goo.gl/maps/FvnyAcLAPav"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
 
-        <h3 className="mt-5">
-          19h30
-          <br />
-          Dîner dans le XX<sup>ème</sup>
-        </h3>
-        <p>
-          Station Belleville (Métro 2, 11)
-          <br />
-          ou Station Couronnes (Métro 2)
-        </p>
+            <h3 className="mt-5">
+              16h00
+              <br />
+              Champagne !
+            </h3>
+            <p className="mb-2">La Canonnière</p>
+            <p className="mb-2">57 Rue de la Fontaine au Roi</p>
+            <a
+              href="https://goo.gl/maps/yajsDQRmZ5pJ7vFr5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
 
-        <h3 className="mt-5">Un dernier verre</h3>
+            <h3 className="mt-5">
+              19h30
+              <br />
+              Dîner dans le XX<sup>ème</sup>
+            </h3>
+            <p className="mb-2">Dame Jane</p>
+            <p className="mb-2">39 Rue Ramponeau</p>
+            <p className="mb-2">
+              Station Belleville (Métro 2, 11)
+              <br />
+              ou Station Couronnes (Métro 2)
+            </p>
+            <a
+              href="https://goo.gl/maps/PuacoP5hKEQVQV779"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
+
+            <h3 className="mt-5">
+              Un dernier verre
+              <br />
+              après minuit
+            </h3>
+            <p className="mb-2">Combat</p>
+            <p className="mb-2">63 Rue de Belleville</p>
+            <a
+              href="https://goo.gl/maps/zEZAiVP98jts6Hhq9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
+          </div>
+          <div className="col-md mt-md-5">
+            <h4>
+              Samedi 1<sup>er</sup> Juin
+            </h4>
+
+            <h5 className="mt-4">
+              11h00
+              <br />
+              Café Caoua
+            </h5>
+            <p className="mb-2">98 Quai de Jemmapes</p>
+            <a
+              href="https://goo.gl/maps/EMguUevo9jDBrgX76"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
+          </div>
+        </div>
 
         <p className="mt-5 mb-0">
           Our greatest present is your attendance.
