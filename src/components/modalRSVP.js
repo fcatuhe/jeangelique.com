@@ -13,7 +13,7 @@ class ModalRSVP extends React.Component {
   render() {
     return (
       <div>
-        <button className="btn btn-block btn-info mb-3" onClick={this.toggle}>
+        <button className="btn btn-block btn-primary" onClick={this.toggle}>
           {this.props.buttonLabel}
         </button>
 

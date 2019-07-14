@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import ModalRSVP from '../components/modalRSVP'
 
-const FamillePage = () => (
+const FriendsPage = () => (
   <Layout skipContainer className="font-family-cinzel">
     <div
       className="h-30vh-max-50vw"
@@ -33,9 +33,6 @@ const FamillePage = () => (
             >
               <i className="fas fa-map-marked-alt fa-lg" />
             </a>
-
-            <h4 className="mt-5">15h30</h4>
-            <h3>Coffee & Cake</h3>
 
             <h4 className="mt-5">18h00</h4>
             <h3>Apéritif</h3>
@@ -173,4 +170,4 @@ const FamillePage = () => (
   </Layout>
 )
 
-export default FamillePage
+export default FriendsPage

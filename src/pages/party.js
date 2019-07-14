@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import ModalRSVP from '../components/modalRSVP'
 
-const FamillePage = () => (
+const PartyPage = () => (
   <Layout skipContainer className="font-family-cinzel">
     <div
       className="h-30vh-max-50vw"
@@ -34,9 +34,6 @@ const FamillePage = () => (
               <i className="fas fa-map-marked-alt fa-lg" />
             </a>
 
-            <h4 className="mt-5">15h30</h4>
-            <h3>Coffee & Cake</h3>
-
             <h4 className="mt-5">18h00</h4>
             <h3>Apéritif</h3>
 
@@ -44,10 +41,7 @@ const FamillePage = () => (
             <h3>Grillades</h3>
 
             <h4 className="mt-5">Till Late</h4>
-            <h3>
-              Music & Drinks
-              <br />& Dancing!
-            </h3>
+            <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
 
             <div className="mt-5 mb-0">
               <ModalRSVP buttonLabel="RSVP">
@@ -62,26 +56,7 @@ const FamillePage = () => (
               </ModalRSVP>
             </div>
           </div>
-          <div className="col-md-4 mt-md-5">
-            <h4>Sunday 20&nbsp;October 2019</h4>
-
-            <h5 className="mt-5 mb-2">Galerie Kernweine</h5>
-            <p className="mb-2">
-              Cottastraße 4 - 6
-              <br />
-              70178 Stuttgart
-            </p>
-            <a
-              href="https://goo.gl/maps/a63TmRdkLgEYb49t5"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-map-marked-alt fa-lg" />
-            </a>
-
-            <h5 className="mt-4">11h00</h5>
-            <h4>Breakfast Club</h4>
-          </div>
+          <div className="col-md mt-md-5" />
         </div>
       </div>
     </div>
@@ -173,4 +148,4 @@ const FamillePage = () => (
   </Layout>
 )
 
-export default FamillePage
+export default PartyPage
