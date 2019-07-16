@@ -41,10 +41,7 @@ const FriendsPage = () => (
             <h3>Grillades</h3>
 
             <h4 className="mt-5">Till Late</h4>
-            <h3>
-              Music & Drinks
-              <br />& Dancing!
-            </h3>
+            <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
 
             <div className="mt-5 mb-0">
               <ModalRSVP buttonLabel="RSVP">
