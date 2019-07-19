@@ -14,7 +14,9 @@ class ModalRSVP extends React.Component {
     return (
       <div>
         <button className="btn btn-block btn-primary" onClick={this.toggle}>
-          {this.props.buttonLabel}
+          Please RSVP Now
+          <br />
+          Jetz Hier Anmelden
         </button>
 
         <Modal

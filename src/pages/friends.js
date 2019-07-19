@@ -66,7 +66,7 @@ const FriendsPage = () => (
         </div>
 
         <div className="mt-5 mb-0">
-          <ModalRSVP buttonLabel="Please RSVP Now • Jetz Hier Anmelden">
+          <ModalRSVP>
             <iframe
               title="stuttgartRSVP"
               src="https://docs.google.com/forms/d/e/1FAIpQLScJmLtkednV8tOwMqNk332bLfyEhRXx9Nqa4pYiEtYCT1YX6A/viewform?embedded=true"

@@ -69,7 +69,7 @@ const FamilyPage = () => (
         </div>
 
         <div className="mt-5 mb-0">
-          <ModalRSVP buttonLabel="Please RSVP Now • Jetz Hier Anmelden">
+          <ModalRSVP>
             <iframe
               title="stuttgartRSVP"
               src="https://docs.google.com/forms/d/e/1FAIpQLSfq_YOnDF5YqzZlaLx6Ej_hPasqPGpWL2GZFnEMhAnerICyNg/viewform?embedded=true"
