@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import ModalRSVP from '../components/modalRSVP'
 
-const FamillePage = () => (
+const FamilyPage = () => (
   <Layout skipContainer className="font-family-cinzel">
     <div
       className="h-30vh-max-50vw"
@@ -170,4 +170,4 @@ const FamillePage = () => (
   </Layout>
 )
 
-export default FamillePage
+export default FamilyPage
