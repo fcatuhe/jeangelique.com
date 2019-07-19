@@ -42,19 +42,6 @@ const FriendsPage = () => (
 
             <h4 className="mt-5">Till Late</h4>
             <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
-
-            <div className="mt-5 mb-0">
-              <ModalRSVP buttonLabel="RSVP">
-                <iframe
-                  title="stuttgartRSVP"
-                  src="https://docs.google.com/forms/d/e/1FAIpQLScJmLtkednV8tOwMqNk332bLfyEhRXx9Nqa4pYiEtYCT1YX6A/viewform?embedded=true"
-                  frameBorder="0"
-                  className="w-100 h-modal-body"
-                >
-                  Loading...
-                </iframe>
-              </ModalRSVP>
-            </div>
           </div>
           <div className="col-md-4 mt-md-5">
             <h4>Sunday 20&nbsp;October 2019</h4>
@@ -77,10 +64,23 @@ const FriendsPage = () => (
             <h4>Breakfast Club</h4>
           </div>
         </div>
+
+        <div className="mt-5 mb-0">
+          <ModalRSVP buttonLabel="Please RSVP Now • Jetz Hier Anmelden">
+            <iframe
+              title="stuttgartRSVP"
+              src="https://docs.google.com/forms/d/e/1FAIpQLScJmLtkednV8tOwMqNk332bLfyEhRXx9Nqa4pYiEtYCT1YX6A/viewform?embedded=true"
+              frameBorder="0"
+              className="w-100 h-modal-body"
+            >
+              Loading...
+            </iframe>
+          </ModalRSVP>
+        </div>
       </div>
     </div>
 
-    <div className="pt-5 pb-4 bg-primary text-white">
+    {/* <div className="pt-5 pb-4 bg-primary text-white">
       <div className="container text-center">
         <h2 className="mb-4">our stuttgArt recommendations</h2>
 
@@ -156,7 +156,7 @@ const FriendsPage = () => (
           className="w-100 h-90vh"
         />
       </div>
-    </div>
+    </div> */}
 
     <div className="py-5 bg-primary text-white">
       <div className="container text-center">
