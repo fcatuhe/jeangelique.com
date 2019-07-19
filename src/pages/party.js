@@ -38,7 +38,7 @@ const PartyPage = () => (
             <h3>Apéritif</h3>
 
             <h4 className="mt-5">19h30</h4>
-            <h3>Grillades</h3>
+            <h3>Food</h3>
 
             <h4 className="mt-5">Till Late</h4>
             <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
