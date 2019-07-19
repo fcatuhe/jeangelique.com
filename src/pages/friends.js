@@ -8,7 +8,7 @@ const FriendsPage = () => (
     <div
       className="h-30vh-max-50vw"
       style={{
-        backgroundImage: `url(/images/jeangelique_Banner.gif)`,
+        backgroundImage: `url(/images/laboum.gif)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
       }}
