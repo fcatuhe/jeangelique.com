@@ -17,7 +17,27 @@ const FamilyPage = () => (
     <div className="py-5">
       <div className="container text-center">
         <div className="row">
-          <div className="offset-md-4 col-md-4 mb-5 mb-md-0">
+          <div className="col-md mt-md-5 mb-5 mb-md-0">
+            <h4>Friday 18&nbsp;October 2019</h4>
+
+            <h5 className="mt-5 mb-2">Weinstube Kiste</h5>
+            <p className="mb-2">
+              Kanalstraße 2
+              <br />
+              70182 Stuttgart
+            </p>
+            <a
+              href="https://goo.gl/maps/6psSR2V9MYpQ2Fm39"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-map-marked-alt fa-lg" />
+            </a>
+
+            <h5 className="mt-4">20h30</h5>
+            <h4>Swabian dinner</h4>
+          </div>
+          <div className="col-md-4 mb-5 mb-md-0">
             <h2>Saturday 19&nbsp;October 2019</h2>
 
             <h4 className="mt-5 mb-2">Galerie Kernweine</h4>
