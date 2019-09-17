@@ -666,7 +666,7 @@ const ParisPage = () => (
           </div>
         </div>
 
-        <div className="">
+        <div>
           <h3 className="mb-4">Que voir ?</h3>
           <div className="row">
             <div className="col-md-6 col-lg-4 mb-4">
