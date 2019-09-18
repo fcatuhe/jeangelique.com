@@ -85,7 +85,7 @@ const FriendsPage = () => (
         <h2 className="mb-4">our stuttgArt recommendations</h2>
 
         <div className="mb-4">
-          <h3 className="mb-4">Eat?</h3>
+          <h3 className="mb-4">Eat, snack or drink?</h3>
           <div className="row">
             <div className="col-md-6 col-lg-4 mb-4">
               <div className="card" style={{ backgroundColor: '#B32A82' }}>
