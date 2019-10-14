@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import ModalRSVP from '../components/modalRSVP'
 
-const PartyPage = () => (
+const StuttgartPage = () => (
   <Layout skipContainer className="font-family-cinzel">
     <div
       className="h-30vh-max-50vw"
@@ -44,19 +44,6 @@ const PartyPage = () => (
             <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
           </div>
         </div>
-
-        <div className="mt-5 mb-0">
-          <ModalRSVP>
-            <iframe
-              title="stuttgartRSVP"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSc69ojmik0YcUJKoSykRqidA8VH_ncs2YGegKNqE_424xLMyQ/viewform?embedded=true"
-              frameBorder="0"
-              className="w-100 h-modal-body"
-            >
-              Loading...
-            </iframe>
-          </ModalRSVP>
-        </div>
       </div>
     </div>
 
@@ -69,4 +56,4 @@ const PartyPage = () => (
   </Layout>
 )
 
-export default PartyPage
+export default StuttgartPage
