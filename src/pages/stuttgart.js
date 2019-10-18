@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import ModalRSVP from '../components/modalRSVP'
 
 const StuttgartPage = () => (
   <Layout skipContainer className="font-family-cinzel">
