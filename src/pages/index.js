@@ -49,6 +49,14 @@ const IndexPage = () => (
     <div className="py-5 bg-primary text-white">
       <div className="container text-center">
         <h3>#JEANGELIQUE</h3>
+        <a
+          href="https://www.dropbox.com/request/vfjcweF59pEVtMIVd6XF"
+          className="btn btn-outline-info"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Send us your pictures!
+        </a>
       </div>
     </div>
   </Layout>
