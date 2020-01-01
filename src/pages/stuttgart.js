@@ -29,39 +29,6 @@ const StuttgartPage = () => {
         }}
       />
 
-      <div className="py-5">
-        <div className="container text-center">
-          <div className="row">
-            <div className="offset-md-4 col-md-4 mb-5 mb-md-0">
-              <h2>Saturday 19&nbsp;October 2019</h2>
-
-              <h4 className="mt-5 mb-2">Galerie Kernweine</h4>
-              <p className="mb-2">
-                Cottastraße 4 - 6
-                <br />
-                70178 Stuttgart
-              </p>
-              <a
-                href="https://goo.gl/maps/a63TmRdkLgEYb49t5"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-map-marked-alt fa-lg" />
-              </a>
-
-              <h4 className="mt-5">18h00</h4>
-              <h3>Apéritif</h3>
-
-              <h4 className="mt-5">19h30</h4>
-              <h3>Food</h3>
-
-              <h4 className="mt-5">Till Late</h4>
-              <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div>
         <Gallery photos={photos} onClick={openLightbox} />
         <ModalGateway>
@@ -75,8 +42,7 @@ const StuttgartPage = () => {
 
       <div className="py-5 bg-primary text-white">
         <div className="container text-center">
-          <h3>For questions</h3>
-          <p className="h5 mb-0">Write us at: oui @ jeangelique.com</p>
+          <h2>Merci !!!</h2>
         </div>
       </div>
     </Layout>
@@ -86,6 +52,118 @@ const StuttgartPage = () => {
 export default StuttgartPage
 
 const photos = [
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05909.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05909.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05909.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05909.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05909.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05917.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05917.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05917.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05917.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05917.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05918.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05918.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05918.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05918.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05918.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05920.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05920.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05920.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05920.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05920.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05922.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05922.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05922.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05922.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05922.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05926.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05926.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05926.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05926.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05926.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05937.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05937.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05937.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05937.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05937.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05941.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05941.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05941.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05941.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05941.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05944.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05944.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05944.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05944.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05944.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05956.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05956.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05956.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05956.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05956.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05957.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05957.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05957.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05957.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05957.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05963.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05963.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05963.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05963.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05963.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05968.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05968.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05968.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05968.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05968.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05973.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05973.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05973.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05973.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05973.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
   {
     src:
       'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/v1577747797/stuttgart/fotograf/angelique_and_jens_-7.jpeg',
@@ -1253,5 +1331,29 @@ const photos = [
       'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/v1577747797/stuttgart/fotograf/angelique_and_jens_-311.jpeg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/v1577747797/stuttgart/fotograf/angelique_and_jens_-311.jpeg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/v1577747797/stuttgart/fotograf/angelique_and_jens_-311.jpeg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/v1577747797/stuttgart/fotograf/angelique_and_jens_-311.jpeg 1920w',
     width: 3072,
     height: 2048,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05990.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05990.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05990.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05990.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05990.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05996.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05996.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05996.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05996.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC05996.jpg 1920w',
+    width: 6000,
+    height: 4000,
+  },
+  {
+    src:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC06000.jpg',
+    srcSet:
+      'https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC06000.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC06000.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC06000.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/c_limit,h_1920,w_1920/v1577747797/stuttgart/DSC06000.jpg 1920w',
+    width: 6000,
+    height: 4000,
   },
 ]
