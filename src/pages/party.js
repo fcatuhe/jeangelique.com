@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import ModalRSVP from '../components/modalRSVP'
 
 const PartyPage = () => (
   <Layout skipContainer className="font-family-cinzel">
@@ -43,19 +42,6 @@ const PartyPage = () => (
             <h4 className="mt-5">Till Late</h4>
             <h3>Music &&nbsp;Drinks &&nbsp;Dancing!</h3>
           </div>
-        </div>
-
-        <div className="mt-5 mb-0">
-          <ModalRSVP>
-            <iframe
-              title="stuttgartRSVP"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSc69ojmik0YcUJKoSykRqidA8VH_ncs2YGegKNqE_424xLMyQ/viewform?embedded=true"
-              frameBorder="0"
-              className="w-100 h-modal-body"
-            >
-              Loading...
-            </iframe>
-          </ModalRSVP>
         </div>
       </div>
     </div>
