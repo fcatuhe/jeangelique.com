@@ -8,18 +8,16 @@
   --bs-primary-rgb: 255, 111, 97;
   --bs-link-color: #ff6f61;
   --bs-link-color-rgb: 255, 111, 97;
+  --bs-link-hover-color: #ff2915;
+  --bs-link-hover-color-rgb: 255, 41, 21;
 }
 
 html {
   -webkit-overflow-scrolling: touch;
 }
 
-.disclaimer-link {
+a:not(:hover) {
   text-decoration: none;
-  &:hover {
-    color: #ff2915;
-    text-decoration: underline;
-  }
 }
 
 .h-30vh-max-50vw {
