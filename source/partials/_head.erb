@@ -12,7 +12,9 @@
 
 <link rel="canonical" href="<%= current_page_canonical_url %>">
 
-<%= favicon_tag('favicon.ico') %>
+<%= favicon_tag("favicon.ico", sizes: "32x32") %>
+<%= favicon_tag("icon.svg") %>
+<%= favicon_tag("apple-touch-icon.png", rel: "apple-touch-icon") %>
 
 <meta name="robots" content="<%= config[:robots_content] %>">
 
