@@ -1,5 +1,5 @@
 <% content_for :assets do %>
-  <%= javascript_include_tag "cloudinary-tag-gallery", type: "module" %>
+  <%= javascript_include_tag "cloudinary-tag-gallery", type: "module", data: { gallery_path: asset_path(:js, "gallery.js") } %>
 <% end %>
 
 <div class="py-10vh bg-primary text-white">

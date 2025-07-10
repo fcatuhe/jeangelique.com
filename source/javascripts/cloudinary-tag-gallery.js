@@ -43,6 +43,8 @@
     })
   })()
 
-  // Step 2: Import gallery
-  import("./gallery.js")
+  // Step 2: Import gallery after DOM is populated
+  const currentScript = document.querySelector('script[data-gallery-path]')
+  const galleryPath = currentScript.dataset.galleryPath
+  import(galleryPath)
 })()
