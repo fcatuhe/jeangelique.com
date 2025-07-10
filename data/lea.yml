@@ -1,5 +1,0 @@
-photos:
-  - src: https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/v1562517668/oui/31052019_Jeangelique_-_000.jpg
-    srcSet: https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_320,w_320/v1562517668/oui/31052019_Jeangelique_-_000.jpg 320w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_640,w_640/v1562517668/oui/31052019_Jeangelique_-_000.jpg 640w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1024,w_1024/v1562517668/oui/31052019_Jeangelique_-_000.jpg 1024w, https://res.cloudinary.com/jeangelique/image/upload/c_limit,h_1920,w_1920/v1562517668/oui/31052019_Jeangelique_-_000.jpg 1920w
-    width: 4016
-    height: 6016

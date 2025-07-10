@@ -8,7 +8,9 @@
     const response = await fetch(url)
     const data = await response.json()
 
-    gallery.innerHTML = ""
+    while (gallery.firstChild) {
+      gallery.removeChild(gallery.firstChild)
+    }
 
     const sortedImages = data.resources.sort((a, b) => a.public_id.localeCompare(b.public_id))
 
