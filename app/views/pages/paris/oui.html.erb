@@ -1,0 +1,18 @@
+<% gallery = Data::Gallery.find('paris_oui') %>
+
+<div class="py-10vh bg-primary text-white">
+  <div class="container text-center font-family-cinzel">
+    <h1>Nous sommes mariés !</h1>
+  </div>
+</div>
+
+<div id="gallery"
+     data-controller="gallery"
+     data-gallery-photos-value="<%= gallery.photos.to_json %>">
+</div>
+
+<div class="py-5 bg-primary text-white">
+  <div class="container text-center font-family-cinzel">
+    <h3>Merci !</h3>
+  </div>
+</div>

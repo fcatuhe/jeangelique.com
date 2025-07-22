@@ -1,19 +1,24 @@
-# jeangelique.com
+# README
 
-## Editing in Markdown
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-- Refer to the [Markdown Guide](https://www.markdownguide.org/basic-syntax) for syntax
+Things you may want to cover:
 
-## Development
+* Ruby version
 
-- `middleman` (or `dev`) to start server
-- `middleman build -e production` to build as Production environment
-  - `middleman build -e production --verbose`
+* System dependencies
 
-## Staging
+* Configuration
 
-- push to `staging` remote will trigger `middleman-deploy-staging` GitHub Action
+* Database creation
 
-## Production
+* Database initialization
 
-- `middleman-deploy` GitHub Action is restricted to the `main` branch
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
