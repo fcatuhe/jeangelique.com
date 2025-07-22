@@ -1,0 +1,18 @@
+<% gallery = Data::Gallery.find('stuttgart') %>
+
+<div
+  class="h-30vh-max-50vw"
+  style="background-image: url(<%= image_path('la-boum.gif') %>); background-position: center; background-size: cover;"
+>
+</div>
+
+<div id="gallery" 
+     data-controller="gallery" 
+     data-gallery-photos-value="<%= gallery.photos.to_json %>">
+</div>
+
+<div class="py-5 bg-primary text-white">
+  <div class="container text-center font-family-cinzel">
+    <h2>Merci !!!</h2>
+  </div>
+</div>
