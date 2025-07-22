@@ -1,0 +1,24 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "Cross-Site Scripting",
+      "warning_code": 2,
+      "fingerprint": "421e49e4591e3eb32ab67387ca3208e98b6608306748f83de18311edd8977b4a",
+      "check_name": "CrossSiteScripting",
+      "message": "Unescaped parameter value",
+      "file": "app/views/pages/_show.html.erb",
+      "line": 1,
+      "link": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+      "code": "Page.find(params[:slug]).html",
+      "render_path": [
+        {"type": "controller", "class": "PagesController", "method": "_show", "line": 9, "file": "app/controllers/pages_controller.rb"}
+      ],
+      "location": {"type": "template", "template": "pages/_show"},
+      "user_input": "params[:slug]",
+      "confidence": "Weak",
+      "note": "False positive: slugs are validated against known pages and content is from trusted ERB templates"
+    }
+  ],
+  "updated": "2025-07-23 00:05:34 +0200",
+  "brakeman_version": "7.1.0"
+}

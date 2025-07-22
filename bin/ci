@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+# Define terminal colors
+TITLE="\033[1;35m"
+SUBTITLE="\033[1;90m"
+ERROR="\033[1;31m"
+SUCCESS="\033[1;32m"
+RESET="\033[0m"
+
+step() {
+  local title="$1"
+  local command="$2"
+
+  echo -e "\n\n${TITLE}${title}${RESET}"
+  echo -e "${SUBTITLE}${command}${RESET}\n"
+
+  eval "$command"
+}
+
+trap 'echo -e "\n\n❌ ${ERROR}Local CI failed${RESET}"; exit 1' ERR
+trap 'echo -e "\n\n🚧 ${ERROR}Local CI interrupted${RESET}"; exit 1' INT TERM
+
+echo -e "🚀 ${SUCCESS}Local CI${RESET}"
+echo -e "${SUBTITLE}Running tests, style checks, and security audits${RESET}"
+
+# Start timing the run
+SECONDS=0
+
+step "Style: Ruby" "bin/rubocop"
+step "Security: Brakeman code analysis" "bin/brakeman --quiet --no-pager --exit-on-warn --exit-on-error"
+step "Security: Bundler vulnerability audit" "bin/bundler-audit check --update"
+step "Tests: Rails" "bin/rails test"
+# step "System tests: Rails" "bin/rails test:system"
+step "Signoff: All systems go. Ready for merge and deploy." "gh signoff"
+
+echo -e "\n\n✅ ${SUCCESS}Local CI passed in $((SECONDS / 60))m $((SECONDS % 60))s${RESET}"
