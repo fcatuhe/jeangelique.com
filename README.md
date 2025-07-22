@@ -1,24 +1,16 @@
-# README
+# jeangelique.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Static site built with Rails, [Decant](https://github.com/benpickles/decant) and [Parklife](https://github.com/benpickles/parklife).
 
-Things you may want to cover:
+## Editing in Markdown
 
-* Ruby version
+- Refer to the [Markdown Guide](https://www.markdownguide.org/basic-syntax) for syntax
 
-* System dependencies
+## Development
 
-* Configuration
+- `dev` to start development server
+- `static-build` to build the static site
 
-* Database creation
+## Production
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `parklife` GitHub Action deploys only from the `main` branch
