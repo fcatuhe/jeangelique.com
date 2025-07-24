@@ -7,8 +7,6 @@ Parklife.application.configure do |config|
 
   # See configuration options here:
   # https://github.com/benpickles/parklife#configuration
-
-  config.base = "https://jeangelique.com"
 end
 
 Parklife.application.routes do
