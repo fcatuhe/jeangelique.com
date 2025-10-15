@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def _show
+  def show
     @page = Page.find(params[:slug])
   end
 end

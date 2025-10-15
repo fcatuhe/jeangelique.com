@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  root to: "pages#_show", slug: "index"
-  get "/*slug", to: "pages#_show"
+  get "/.well-known/*", to: ->(_env) { [ 204, {}, [] ] }
+
+  root "pages#show", slug: "index"
+  get "/*slug", to: "pages#show", as: :page
 end
