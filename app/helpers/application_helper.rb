@@ -20,7 +20,7 @@ module ApplicationHelper
   end
 
   def canonical_url
-    url_for(only_path: false)
+    url_for(only_path: false).delete_suffix("/")
   end
 
   def robots_content
